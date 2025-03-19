@@ -1,0 +1,63 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #508ecc;
+}
+
+h1, h2 {
+    color: #333;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: white;
+}
+
+th, td {
+    padding: 15px;
+    text-align: left;
+}
+
+th {
+    background-color: #343a40;
+    color: white;
+}
+
+button {
+    padding: 12px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button[type="submit"] {
+    background-color: #146bbd;
+    color: white;
+}
+
+button[type="submit"]:hover {
+    background-color: #2a82aa;
+}
+
+button.delete-btn {
+    background-color: #35ddc7;
+    color: white;
+}
+
+button.delete-btn:hover {
+    background-color: #1db1b1;
+}
+
+.card {
+    background-color: white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+input, select {
+    margin-bottom: 10px;
+}
+
+.form-control {
+    height: 45px;
+}
